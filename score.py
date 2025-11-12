@@ -23,3 +23,14 @@ avg= total/len(score_list)
 
 print(count)
 print(int(avg))
+  if int(i) <60:
+    count+=1
+print("不及格人數:"+str(count))
+max=score_list[0]
+min=score_list[0]
+for i in score_list:
+  if i>max:
+    max=i
+  elif i<min:
+    min=i
+print("最大值為:"+max,"最小值為:"+min)
