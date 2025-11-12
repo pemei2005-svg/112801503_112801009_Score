@@ -17,7 +17,9 @@ for i in score_list:
     if score < 60:
         count += 1
 
-average= total/len(score_list)
+
+
+avg= total/len(score_list)
 
 print(count)
-print(int(average))
+print(int(avg))
