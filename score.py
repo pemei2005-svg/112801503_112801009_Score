@@ -12,6 +12,17 @@ count=0
 total=0
 
 for i in score_list:
+    score = int(i)
+    total += score
+    if score < 60:
+        count += 1
+
+
+
+avg= total/len(score_list)
+
+print(count)
+print(int(avg))
   if int(i) <60:
     count+=1
 print("不及格人數:"+str(count))
